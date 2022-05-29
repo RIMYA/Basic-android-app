@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="0dp"
+    tools:context=".CCTVActivity">
+
+    <TextView
+        android:id="@+id/tvRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:text="CAMERA SURVILLENCE:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:checked="false"
+        android:text="cam1" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="320dp"
+        android:checked="true"
+        android:text="cam2" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="320dp"
+        android:checked="false"
+        android:text="cam3" />
+
+    <RadioButton
+        android:id="@+id/rb4"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="320dp"
+        android:checked="false"
+        android:text="cam4" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="OVER VIEW"
+        android:textColor="#FBFBFB" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvRg"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-275dp"
+        app:srcCompat="@drawable/camera" />
+
+</RelativeLayout>
